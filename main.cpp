@@ -140,7 +140,6 @@ int main ()
 
     std::cout << "\nGenerated Text:\n"<< output << "\n\n";
     std::cout<< "Generated " << actualWordCount << "of at most " << requestedWords << "words.\n";
-
     if (actualWordCount < requestedWords)
     {
         std::cout << "Stopped early: there is no record for current prefix :(" 
